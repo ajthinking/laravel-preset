@@ -1,6 +1,6 @@
 <?php
 
-namespace NothingWorks\LaravelPreset;
+namespace Ajthinking\LaravelPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
@@ -9,11 +9,11 @@ class PresetServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        PresetCommand::macro('nothingworks', function ($command) {
+        PresetCommand::macro('ajthinking', function ($command) {
             Preset::install();
 
-            $command->info('NothingWorks scaffolding installed successfully.');
-            $command->info('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
+            $command->info('Ajthinking scaffolding installed successfully.');
+            $command->info('Please run "yarn && yarn dev" to compile your fresh scaffolding.');
         });
     }
 }
