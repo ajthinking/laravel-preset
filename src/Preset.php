@@ -1,6 +1,6 @@
 <?php
 
-namespace NothingWorks\LaravelPreset;
+namespace Ajthinking\LaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
