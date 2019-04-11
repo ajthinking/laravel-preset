@@ -1,6 +1,6 @@
-# 🚀 Adam Wathan's Laravel Frontend Preset
+# 🚀 ajthinkings Laravel Preset
 
-A Laravel frontend preset that scaffolds out new applications just the way I like 'em 👌🏻
+A Laravel preset that scaffolds out new applications just the way I like 'em 👌🏻
 
 What it includes:
 
